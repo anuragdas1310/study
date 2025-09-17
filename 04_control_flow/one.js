@@ -42,9 +42,9 @@ const userLoggedIn = true
 const debitCard = true
 const userLoggedInFromGoogle = false
 const loggedInFromEmail = true
-if (userLoggedIn && debitCard && 2==3){   // in this methd all the conditions are need to be true
+if (userLoggedIn && debitCard && 2==3){   // in this operator(&&) if all the conditions are true then it will execute
     consol.log("Allow to buy kcourse");
 }
-if (userLoggedInFromGoogle || loggedInFromEmail) {
+if (userLoggedInFromGoogle || loggedInFromEmail) { //in this operator(||) if only one condition is true then it will execute
     console.log("User logged in")
 }
